@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace HelloRider
 {
@@ -10,26 +7,27 @@ namespace HelloRider
     {
         static void Main(string[] args) 
         {
-            var fant = new DeskFan(new PowerSupply());
-            Console.WriteLine(fant.Work());
+            var fan = new DeskFan(new PowerSupply());
+            Console.WriteLine(fan.Work());
         }
 
     }
 
-    interface IPowerSupply
+    public interface IPowerSupply
     {
+        
         int GetPower();
     }
 
 
-    class PowerSupply:IPowerSupply
+    public class PowerSupply:IPowerSupply
     {
         public int GetPower()
         {
             return 100;
         }
     }
-    class DeskFan
+    public class DeskFan
     {
         private IPowerSupply _powerSupply;
         public DeskFan(IPowerSupply powerSupply)
