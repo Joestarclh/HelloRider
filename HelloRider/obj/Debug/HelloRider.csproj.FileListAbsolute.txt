@@ -1,0 +1,7 @@
+C:\Users\fivfl\source\repos\HelloRider\HelloRider\bin\Debug\HelloRider.exe.config
+C:\Users\fivfl\source\repos\HelloRider\HelloRider\bin\Debug\HelloRider.exe
+C:\Users\fivfl\source\repos\HelloRider\HelloRider\bin\Debug\HelloRider.pdb
+C:\Users\fivfl\source\repos\HelloRider\HelloRider\obj\Debug\HelloRider.csprojAssemblyReference.cache
+C:\Users\fivfl\source\repos\HelloRider\HelloRider\obj\Debug\HelloRider.csproj.CoreCompileInputs.cache
+C:\Users\fivfl\source\repos\HelloRider\HelloRider\obj\Debug\HelloRider.exe
+C:\Users\fivfl\source\repos\HelloRider\HelloRider\obj\Debug\HelloRider.pdb
